@@ -12,7 +12,18 @@
         android:theme="@style/Theme.FindMyRoommate"
         tools:targetApi="31">
         <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".signuppage"
+            android:exported="false"
+            android:label="@string/title_activity_signuppage"
+            android:theme="@style/Theme.FindMyRoommate.NoActionBar" />
+        <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".splashactivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
