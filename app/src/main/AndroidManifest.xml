@@ -16,7 +16,7 @@
             android:exported="false" />
         <activity
             android:name=".signuppage"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_signuppage"
             android:theme="@style/Theme.FindMyRoommate.NoActionBar" />
         <activity
